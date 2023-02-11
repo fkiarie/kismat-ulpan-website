@@ -91,4 +91,19 @@ img{
         top: 18px;
         right:32px;
     }
+    nav ul{
+        background: whitesmoke;
+        display:none;
+    }
+    .showmenu{
+        display: block;
+    }
+    nav ul li{
+        display: block;
+        padding: 2% 0;
+    }
+    nav ul li a{
+        color: #333;
+    }
+
 }
