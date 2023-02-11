@@ -41,14 +41,14 @@ p {
 }
 
 img {
-    width: 200%;
+    width: 100%;
     height: auto;
 }
 
 .row {
     display: flex;
     justify-content: space-between;
-    width: 88%;
+    width: 80%;
     align-items: center;
     margin: auto;
 }
@@ -133,6 +133,41 @@ input[type=submit]{
 input::placeholder{
     font-size: 1.3rem;
     color: #ccc;
+}
+
+.about-left,
+.about-middle,
+.about-right{
+    flex-basis: 30%;
+    padding: 1.6rem;
+}
+.btn{
+    background-color: #F0A500;
+    color: #fff;
+    padding: 8px 16px;
+    display: inline-block;
+    margin: 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.about2{
+    background-color: #222;
+    color:whitesmoke;
+}
+.about2-left{
+    flex-basis:50%;
+}
+.about2-right{
+    flex-basis: 30%;
+}
+.about2 .card{
+    padding: 3rem 8rem;
+    color:#222;
+    background-color: #dcdcdc;
+    margin: 1.6rem;
+    text-align: center;
 }
 
 
