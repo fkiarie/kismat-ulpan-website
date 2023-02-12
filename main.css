@@ -264,18 +264,20 @@ input::placeholder{
     margin: 1.2rem 0;
     font-family: "Poppins", sans-serif;
 }
-
-
-
-
-
-
+footer{
+    height: 80px;
+    background-color: #222;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+}
 
 
 
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
+
     nav {
         flex-direction: column;
         position: relative;
