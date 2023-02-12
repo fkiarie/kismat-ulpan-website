@@ -170,7 +170,56 @@ input::placeholder{
     text-align: center;
 }
 
+/* process section */
 
+.process .row{
+    justify-content: center;
+}
+.process-content{
+    margin-top: 100px;
+}
+.progress-bar{
+    width: 80%;
+    height: 2px;
+    background-color: #222;
+    margin: auto;
+    position: relative;
+}
+.progress-bar .c1,
+.progress-bar .c2,
+.progress-bar .c3{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #222;
+    position: absolute;
+}
+.progress-bar .c1{
+    top:-8px;
+    left:50px;
+}
+.progress-bar .c2{
+    top:-8px;
+    left:50%;
+}
+.progress-bar .c3{
+    top:-8px;
+    right:50px;
+}
+.box1,
+.box2,
+.box3{
+    padding: 1.8rem;
+}
+.process .box2{
+    text-align: center;
+}
+.process .box3{
+    text-align: right;
+}
+.process-content h2{
+    color: #F0A500;
+}
 
 
 
