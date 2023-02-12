@@ -221,6 +221,26 @@ input::placeholder{
     color: #F0A500;
 }
 
+.testimony{
+    background-color: #222;
+    color: whitesmoke;
+}
+.testimony .test{
+    background-color: #505050;
+    padding: 4rem 8rem;
+    margin: 0 1rem;
+}
+.testimony .image{
+    width: 80px;
+    height: 80px;
+}
+.testimony img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 
 
 
