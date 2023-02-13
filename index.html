@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <nav  id="navbar">
+        <nav id="navbar">
             <div class="logo">
                 <h1>Kismat Ulpan</h1>
             </div>
@@ -159,19 +159,35 @@
         </div>
     </section>
     <section class="contact" id="contact">
-        <div class="row">
-            <h2>Contact Us</h2>
-        </div>
-        <div class="row">
-            <form action="">
-                <input type="text" placeholder="Enter your name">
-                <input type="email" placeholder="Enter your email">
-                <textarea> Enter your message</textarea>
-                <input type="submit" value="Send">
-            </form>
+        <div class="wrapper">
+            <h2>Contact us</h2>
+            <div class="address">
+                <div class="inner-address">
+                    <box-icon type='solid' name='map' size="lg" animation="tada"></box-icon>
+                    <p>Contour Business Centre, Kasarani,<br> Nairobi, Kenya</p>
+                </div>
+                <div class="inner-address">
+                    <box-icon type='solid' name='envelope'size="lg"  animation="tada"></box-icon>
+                    <p>hello@kismatulpan.com</p>
+                </div>
+                <div class="inner-address">
+                    <box-icon name='phone' size="lg"  animation="tada"></box-icon>
+                    <p>+ 254 793031288</p>
+                </div>
+            </div>
+            <div class="form-title">
+                <h3>Leave a message</h3>
+            </div>
+            <div class="row">
+                <form action="">
+                    <input type="text" placeholder="Enter your name">
+                    <input type="email" placeholder="Enter your email">
+                    <textarea> Enter your message</textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
         </div>
     </section>
-
     <footer>
         <p>Powered <box-icon name='rocket' color="whitesmoke"></box-icon> by the Grace of God</p>
     </footer>

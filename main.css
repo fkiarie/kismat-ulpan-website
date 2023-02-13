@@ -254,20 +254,40 @@ input::placeholder{
     object-fit: cover;
 }
 
-.contact .row{
-    justify-content: center;
-}
-.contact form{
+.contact{
     width: 100%;
+    margin: 50px auto;
+    padding: 30px;
+}
+.wrapper h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.address{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color:#F0A500;
+    margin-bottom: 50px;
 }
-.contact form input{
-    width: 50%;
+.inner-address p{
+font-size: 12px;
 }
-.contact textarea{
-    width: 50%;
+.wrapper box-icon{
+    margin-bottom: 10px;
+    size: 80px;
+}
+.wrapper > .row{
+    justify-content: center;
+    text-align: center;
+}
+.wrapper form input{
+    width: 100%;
+}
+.wrapper textarea{
+    width: 100%;
     height: 150%;
     padding: 12px 20px;
     border: 1px solid #ccc;
@@ -277,6 +297,14 @@ input::placeholder{
     margin: 1.2rem 0;
     font-family: "Poppins", sans-serif;
 }
+.wrapper h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    font-size: 25px;
+}
+
+
 footer{
     height: 80px;
     background-color: #222;
@@ -358,6 +386,12 @@ footer{
     .contact textarea{
         width: 100%;
     }
-
+    .address{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color:#F0A500;
+        margin-bottom: 50px;
+    }
 
 }
