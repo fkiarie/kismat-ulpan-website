@@ -17,3 +17,12 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+// Get the phone icon
+var phoneIcon = document.getElementById("phone-icon");
+
+// Add a click event listener to the phone icon
+phoneIcon.addEventListener("click", function() {
+  window.location.href = "tel:+254793031288";
+});
+
