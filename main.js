@@ -26,3 +26,14 @@ phoneIcon.addEventListener("click", function() {
   window.location.href = "tel:+254793031288";
 });
 
+
+const readMoreBtn = document.querySelector('.read-more');
+const hiddenContent = document.querySelector('.hidden');
+
+readMoreBtn.addEventListener('click', (event) => {
+  event.preventDefault();
+  hiddenContent.classList.toggle('hidden');
+  readMoreBtn.textContent = hiddenContent.classList.contains('hidden') ? 'Read More' : 'Read Less';
+});
+
+
