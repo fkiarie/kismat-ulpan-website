@@ -26,7 +26,7 @@ phoneIcon.addEventListener("click", function() {
   window.location.href = "tel:+254793031288";
 });
 
-
+// Read more about section
 const readMoreBtn = document.querySelector('.read-more');
 const hiddenContent = document.querySelector('.hidden');
 
