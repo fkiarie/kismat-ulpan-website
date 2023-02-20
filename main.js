@@ -36,4 +36,11 @@ readMoreBtn.addEventListener('click', (event) => {
   readMoreBtn.textContent = hiddenContent.classList.contains('hidden') ? 'Read More' : 'Read Less';
 });
 
+// Google analytics
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-L2Z25SZGYN');
+
 
